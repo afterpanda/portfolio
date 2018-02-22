@@ -34,6 +34,10 @@ h1{
   line-height: 1.6;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 h2{
   font-size: 18px;
   font-weight: 400;
@@ -58,7 +62,7 @@ hr{
   font-size: 13px;
 }
 
-.article-text .anotation{
+.article-text .annotation{
   font-size: 14px;
   color: #aaa;
 }
@@ -92,6 +96,12 @@ hr{
 .navi ul li{
   display: inline-block;
   padding-right: 30px;
+  color: #afafaf;
+}
+
+.navi .highlighted-text{
+  color: #3aafff;
+  text-transform: uppercase;
 }
 
 .navi ul li:hover{
@@ -129,9 +139,10 @@ hr{
 .profile-text{
   font-size: 16px;
   font-weight: normal;
-  color: #828282;
-  margin-top: 20px;
-  line-height: 1.4;
+  color: #5d5d5d;
+  margin-top: 30px;
+  line-height: 1.6;
+  letter-spacing: 1px;
 }
 
 .grey-link{
@@ -170,7 +181,7 @@ hr{
   font-size: 14px;
   font-weight: 700;
   padding: 14px 50px 14px 45px;
-  margin-top: 40px;
+  margin-top: 0px;
   box-shadow: 0 0 0px #c1c1c1;
   letter-spacing: 1px;
   transition: box-shadow 0.3s ease;
@@ -270,7 +281,7 @@ hr{
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 80%;
 }
 
 .social{
@@ -286,7 +297,7 @@ hr{
   width: 60px;
 }
 
-.footer p{
+.footer p, .article-footer p{
   color: #b3b3b3;
   line-height: 1.2;
   margin-top: 10px;
@@ -339,10 +350,18 @@ hr{
 
 .anchor{
   color:#ccc;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   display: block;
   margin:10px 0px 10px 0px;
+}
+
+.anchor:hover{
+  color:#3aafff;
+}
+
+.anchor-active{
+  color:#3aafff;
 }
 
 .tags{

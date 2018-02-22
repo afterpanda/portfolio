@@ -26,20 +26,23 @@
 <body>
   <nav class="navi">
     <ul>
-      <a href="index.html"><li class="highlighted-text">WORK</li></a>
+      <a href="index.html"><li>WORK</li></a>
       <li>ABOUT</li>
-      <li>RESUME</li>
+      <a href="assets/jinping_liu_resume.pdf"><li>RESUME</li></a>
     </ul>
   </nav>
   <div class="article-sidebar">
     <div class="greeting">
       <img src="assets/portfolio_logo.svg" alt="LOGO" class="article-logo">
       <div class="in-page-navi">
-        <a class="anchor highlighted-text" id="anchor-s1" href="#s1">THE PROBLEM</a>
-        <a class="anchor" id="anchor-s2" href="#s2">USER RESEARCH</a>
-        <a class="anchor" id="anchor-s3" href="#s3">DEFINING GOALS</a>
-        <a class="anchor" id="anchor-s4" href="#s4">PRODUCT DECISIONS</a>
-        <a class="anchor" id="anchor-s5" href="#s5">REFLECTIONS</a>
+        <a class="anchor" id="anchor-s1" href="#s1">BACKGROUND</a>
+        <a class="anchor" id="anchor-s2" href="#s2">DESIGN CHALLENGE</a>
+        <a class="anchor" id="anchor-s3" href="#s3">SECONDARY RESEARCH</a>
+        <a class="anchor" id="anchor-s4" href="#s4">INITIAL USER RESEARCH</a>
+        <a class="anchor" id="anchor-s5" href="#s5">PROTOYPING & LEARNING</a>
+        <a class="anchor" id="anchor-s6" href="#s6">DIVE EVEN DEEPER</a>
+        <a class="anchor" id="anchor-s7" href="#s7">DESIGN DECISIONS</a>
+        <a class="anchor" id="anchor-s8" href="#s8">REFLECTION</a>
       </div>
     </div>
   </div>
@@ -60,18 +63,20 @@
 
     <div class="article-text">
       <img class="background-img" src="https://www.happy-or-not.com/content/uploads/2017/12/The-Airport-Report-with-feedback-data.jpg" alt="background-image">
+      <p class="annotation">* HappyOrNot smiley terminal at the airport.</p>
     </div>
-    <div class="article-text">
-      <p class="highlighted-text">PROJECT BACKGROUND</p>
+    <div id="s1" class="article-text">
+      <p class="highlighted-text">BACKGROUND</p>
       <h1>A redesign project with its global business ambition in mind</h1>
       <p>If you happen to be a busy traveler, you might have encountered the little device with 4 smileys at many of the world’s largest airports, grocery stores, and chain restaurants. As the global leader in instant customer feedback reporting, HappyOrNot provides reporting services for over 2,500 companies worldwide, including many of the 500 fortune companies. In 2016, the company decided to rebuild the core of its business—HappyOrNot reporting system—to envision an even larger global success for the next 10 years.</p>
       <p><strong>I led the redesign process and took full ownership in user research, interaction design, and visual design. After the global launch in Nov 2017, the retention rate had risen dramatically from 30% to 45%.</strong></p>
     </div>
-    <div class="article-text">
+    <div id="s2" class="article-text">
       <p class="highlighted-text">Design Challenge</p>
       <h1>To build a solid foundation for the company's change in business strategy.</h1>
       <p>HappyOrNot used to be a product-centered company in its early days, despite the company's subscription-based business model. At the time, the reporting system is less of an important business component for attracting new clients. After 6 years of rapid growth, however, the company has gained a large client base and maintaining them with high-quality reporting services has become more crucial than ever.</p>
       <img class="background-img" src="assets/diagram_retention.png" alt="retention">
+      <p class="annotation">* Correlation between retention of the reporting system and the retention of HappyOrNot's service subscription as a whole.</p>
       <p>According to the company’s internal research, there is a strong correlation between the retention rate of the reporting system and the retention rate of the whole service. That is to say, rebuilding the reporting system is rebuilding the foundation of HappyOrNot's future business. To achieve that goal, I have to answer these questions:
 </p>
       <ul>
@@ -80,13 +85,14 @@
         <li><strong>How to eventually convince clients to stay with the service for a longer term?</strong></li>
       </ul>
     </div>
-    <div class="article-text">
+    <div id="s3" class="article-text">
       <p class="highlighted-text">Secondary Research</p>
       <h1>On the surface, what users want is just a cluster of advanced features.
 </h1>
       <p>Before conducting any user research, I first went through all the secondary materials collected by the customer care team that capture usability issues reported by users who had trouble while using the system.
 </p>
       <img class="background-img" src="assets/secondary_research.jpg" alt="">
+      <p class="annotation">* Mapping secondary research findings.</p>
       <p>What I learned from the materials are:</p>
       <ul>
         <li>Some of the usability issues and corner use cases that users had in the system</li>
@@ -99,9 +105,9 @@
         <li><strong>The most common pain points that users encounter in the current system</strong></li>
       </ul>
     </div>
-    <div class="article-text">
+    <div id="s4" class="article-text">
       <p class="highlighted-text">Initial User Research</p>
-      <h1>Digging into the goals, needs, and common use cases of the 3 main user types</h1>
+      <h1>Wait...what are the actual common use cases again?</h1>
       <p>To answer the questions left in the secondary research, I did three things:</p>
       <ul>
         <li>mapped out the stakeholders and narrow my research target down to 3 main user types. </li>
@@ -110,13 +116,13 @@
       </ul>
       <p>Through interviews and observation, I collected rich data regarding goals, needs of each user type and the tasks that they want to achieve with the help of the reporting system. <strong>By synthesizing the data, I created personas for each of the 3 user types and a table to highlight the key difference among the 3 user types:</strong></p>
     </div>
-    <div class="article-text">
+    <div id="s5" class="article-text">
       <p class="highlighted-text">Protoyping & Learning</p>
       <h1>Optimizing the experience for each user types by offering persona and scenario specific views</h1>
       <img src="" alt="">
       <p>According to the table above, I created the first draft of the 3 differing views targeting the 3 personas:</p>
       <img src="" alt="">
-      <p>By testing the initial draft with the internal users, I found that</p>
+      <p>By testing the initial draft with the internal users, I proved my assumption that: </p>
       <h1>Persona-specific views provides users with more relevant and valuable content.</h1>
       <p>What I also found is that:</p>
       <h1>The view should also be scenario-specific and task-specific, to reduce the distraction and boost the efficiency in the experience.</h1>
@@ -131,12 +137,12 @@
 
     </div>
 
-    <div class="article-text">
+    <div id="s6" class="article-text">
       <p class="highlighted-text">Dive Even Deeper</p>
-      <h1>The real challenge isn’t to offer a smoother experience, but to "give users the meat."</h1>
+      <h1>The real challenge isn’t to offer a smoother experience, but to "give them the meat."</h1>
       <p>Quite opposite to my expectation, external users seem to be more critical to the new design. Although they seem to be satisfied with the role-specific design idea, they don’t seem to be impressed by the new design.</p>
       <img class="background-img" src="assets/quote.png" alt="findings">
-      <p class="anotation">* Quotes from user interviews.</p>
+      <p class="annotation">* Quotes from user interviews.</p>
       <p>To understand what the users define as “new” or the "meat", I conducted another round of user research which includes:</p>
       <ul>
         <li>Analyzing the pattern in the users' usage data </li>
@@ -144,18 +150,16 @@
         <li>Interviewing users based on the potential pain points found in 1 and 2 </li>
       </ul>
       <img class="background-img" src="assets/finding.png" alt="findings">
+      <p class="annotation">* Insights for improvement were found to be the value lacking in the reporting system.</p>
       <p>By synthesizing the users' insights in the intervew, I found that:</p>
       <ul>
         <li><p><strong>What users really want is the improvement rather than measurement of customer satisfaction.</strong></p></li>
         <li><p><strong>For making improvement, users need insights on how they are performing and where they can improve. </strong></p></li>
         <li><p><strong>Users have no time and expertise to analyze the data for the insights needed for improvement.</strong></p></li>
       </ul>
-
-
-
     </div>
 
-    <div class="article-text">
+    <div id="s7" class="article-text">
       <p class="highlighted-text">Design Decisions</p>
       <h1>Actionable insights at a simple glance with no laboring analysis needed anymore</h1>
       <p>By further digesting the findings from the user research, I realized what the users see as lacking in the previous design are the actionable insights that can help managers to improve their service performance in an efficient and hassle-free manner.</p>
@@ -169,9 +173,9 @@
         <h1>2. Consistent widget size</h1>
     </div>
 
-    <div class="article-text">
-      <p class="highlighted-text">The launch & Reflection</p>
-      <p>The new reporting system has made its global launch in Nov 2017. Since the launch, the retention rate of the reporting system had risen dramatically from 30% to 50%, which had achieved its goal of building a solid foundation for HappyOrNot’s global business ambition.
+    <div id="s8" class="article-text">
+      <p class="highlighted-text">Reflection</p>
+      <p>The new reporting system has made its global launch in Nov 2017. Since the launch, the retention rate of the reporting system had risen dramatically from 30% to 45%, which had achieved its goal of building a solid foundation for HappyOrNot’s global business ambition.
 </p>
       <p><strong>What I learned in this project: </strong></p>
       <ul>
@@ -205,7 +209,7 @@
         </div>
       </div>
 
-      <div class="footer">
+      <div class="article-footer">
         <p class="small">© designed & coded by Jinping Liu</p>
       </div>
 

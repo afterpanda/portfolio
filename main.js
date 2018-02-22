@@ -30,7 +30,7 @@ $(function scrolly(){
 
 
 $(document).ready(function(){
-	var contentSection = $('.content-section');
+	var contentSection = $('.article-text');
 	var navigation = $('.in-page-navi');
 
 
@@ -42,16 +42,9 @@ $(document).ready(function(){
 	});
 
 	//update navigation on scroll...
-	/*$(window).on('scroll', function(){
-    if( $(window).scrollTop() < window.innerHeight){
-      navigation.slideUp(200);
-      console.log("<");
-    }else{
-      navigation.slideDown(200);
-      console.log(">");
-    }
+	$(window).on('scroll', function(){
 		updateNavigation();
-	})*/
+	})
 	//...and when the page starts
 	updateNavigation();
 
