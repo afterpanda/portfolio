@@ -142,7 +142,7 @@ hr{
   color: #5d5d5d;
   margin-top: 30px;
   line-height: 1.6;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .grey-link{
@@ -331,6 +331,12 @@ hr{
 
 .background-img{
   width: 100%;
+}
+
+.full-img{
+  width: 100%;
+  z-index: 10;
+  position:relative;
 }
 
 .article-content{
