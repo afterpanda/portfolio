@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jinping's Portfolio</title>
+  <meta name="description" content="About Me">
+  <meta name="author" content="SitePoint">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="path/to/theater.min.js"></script>
+  <script src="main.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <nav class="navi">
+    <a href="index.html"><img src="assets/portfolio_logo_white.svg" alt="LOGO" class="article-logo"></a>
+
+  </nav>
+  <div class="article-sidebar">
+    <div class="greeting">
+      <!--<img src="assets/portfolio_logo.svg" alt="LOGO" class="article-logo">-->
+      <div class="in-page-navi">
+        <a class="anchor" id="anchor-s1" href="#s1">Project Background</a>
+        <a class="anchor" id="anchor-s2" href="#s2">Getting Started</a>
+        <a class="anchor" id="anchor-s3" href="#s3">Early Iterations</a>
+        <a class="anchor" id="anchor-s4" href="#s4">Learning from Users</a>
+        <a class="anchor" id="anchor-s5" href="#s5">Design Principles</a>
+        <a class="anchor" id="anchor-s6" href="#s6">Design Decisions</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card card-3">
+    <img class="cover-img" src="assets/privacy/hand_hold.png" alt="">
+  </div>
+
+  <div class="article-title">
+
+    <div class="tags">
+      <span>USER RESEARCH</span>
+      <span>MOBILE DESIGN</span>
+    </div>
+    <h1 class="title">Android Privacy Manager</h1>
+    <p class="article-brief">I designed the new privacy manager that CMU and DARPA are proposing to Google to give Android users more control over their privacy data.</p>
+    <p class="article-brief">The project is now work-in-progress.</p>
+
+  </div>
+
+    <img class="mid-img" src="assets/privacy/demo.png" alt="">
+
+  <div class="article-content">
+
+    <div id="s1" class="article-text">
+      <p class="highlighted-text">Project Background</p>
+      <h1>To envision a powerful yet effortless privacy managing experience for Android users.</h1>
+      <p>Data security has become a heated topic recently. With the various data collected via ubiquitous computing, our privacy data has been getting more and more fragile. Collaborating with DARPA, CMU CHIMP LAB is now proposing a new way of privacy management to Google, aiming at giving Android users more controls over their privacy data.</p>
+      <img class="background-img" src="assets/privacy/design_challenge.png">
+      <p><strong>The current Android OS only tells you:</strong></p>
+      <ul>
+        <li><strong>Data types</strong> that have been collected by the apps (e.g. location or camera)</li>
+      </ul>
+      <p><strong>But, with the new data model, it will also tell you:</strong></p>
+      <ul>
+        <li><strong>Purposes</strong> that the data are collected for (e.g. for advertisment)</li>
+        <li><strong>Third-parties</strong> that the data have been sent to (e.g. libraries like flurry)</li>
+      </ul>
+      <p>With the advanced features we are introducing to the users, the design became challenging since we need to wrap the unprecedented power of control in an understandable and manageable way.</p>
+      <p>So the problem statement for this project is: <strong>how can we leverage the advanced features but still keep the design simple?</strong></p>
+    </div>
+
+    <div id="s2" class="article-text">
+      <p class="highlighted-text">Getting Started</p>
+      <p>Before starting the design process, I did a bunch of user testing with 5 mobile users. The important findings from the testing and interviews largely shaped the design direction of the project.</p>
+      <h3>&#x25B8; Insight 1</h3>
+      <h2>Data privacy is not a primary task.</h2>
+      <p>It is a sure thing that people want their privacy data to be secured. However, given the millions of other things that are also grabbing people’s attention, data privacy became a much smaller deal in reality than in our imagination. </p>
+      <img class="background-img" src="assets/privacy/initial_insight1.png">
+      <h3>&#x25B8; Insight 2</h3>
+      <h2>“Purpose” and “third-parties” are still vague concepts.</h2>
+      <p>Although I’d like to assume that users would find privacy settings by purpose and third-parties helpful, the test results showed that I was wrong. All 5 users were confused by the idea of “purpose” and “third-parties” and ignored the options under the 2 concepts completely in the testing.</p>
+      <img class="background-img" src="assets/privacy/initial_insight2.png">
+    </div>
+
+    <div id="s3" class="article-text">
+      <p class="highlighted-text">Early Iterations</p>
+      <h1>The initial focus was on improving the in-app experience.</h1>
+      <p>Based on the initial research findings, I listed three main use cases that the app should be designed to serve. The use cases are:</p>
+      <ul>
+        <li>How can users change a permission setting for an app that I just used?</li>
+        <li>How can users stop an app from collecting my location data for ads? </li>
+        <li>How can users stop a group of social apps from collecting their contact info?</li>
+      </ul>
+      <p>And to optimize the design specifically for those three use cases, I set up three design decisions for the initial iteration:</p>
+      <ol>
+        <strong>
+        <li>improve the visual hierarchy</li>
+        <li>speed up the common use cases</li>
+        <li>use metaphor to explain the concepts</li>
+        </strong>
+      </ol>
+    </div>
+  </div>
+
+<img class="full-img" src="assets/privacy/initial_demo.png" alt="">
+
+    <div id="s4" class="article-text">
+      <p class="highlighted-text">Learning from Users</p>
+      <p>By testing the initial prototypes with users, I found some underlying problems of my initial assumptions. Initially, I thought the problems are embedded in the configuring experience, however, the results show that the root cause is in somewhere else.</p>
+      <h3>&#x25B8; Insight 1</h3>
+      <h2>“Actually, I won’t even open the app at the first place.”</h2>
+      <p>Surprisingly, in the testing sessions, many users mentioned that they almost never go to the privacy setting app on their phone. For them, the critical moment to secure the data is the moment when they install the app and open it for the first time. After the initial install-time set up, users rarely go to the privacy setting app to modify their settings.</p>
+      <img class="background-img" src="assets/privacy/insight1.png">
+      <h3>&#x25B8; Insight 2</h3>
+      <h2>“Am I all set by pressing the button? I am quite concerned.”</h2>
+      <p>Another important finding is that users tend to forget about what they’ve set up in the past and are quite concerned about not being aware of the potential privacy risks. Some users mentioned that they hope that there would be some sort of reminder to help them constantly keep an eye on the data usage and point out the potential misuses.</p>
+      <img class="background-img" src="assets/privacy/insight2.png">
+      <h3>&#x25B8; Insight 3</h3>
+      <h2>“Don’t explain the concepts. Just tell me what to do.”</h2>
+      <p>The test results showed that the metaphors barely help people understand the concepts. Users didn’t even see the point of understanding the concepts at the first place. Instead, most of them fully trust what the operating system would recommend.</p>
+      <img class="background-img" src="assets/privacy/insight3.png">
+    </div>
+
+  <div class="article-content">
+    <div id="s5" class="article-text">
+      <p class="highlighted-text">Design Principles</p>
+      <p>With the three key insights learnt from user testing, I went ahead and set up three design principles for the final design.</p>
+      <h3>&#x25B8; Principle 1</h3>
+      <h2>Be mindful of the whole life cycle.</h2>
+      <p>Rather than just focusing on the configuration experience, which users barely use in reality, I decided to extend the experience to the whole life cycle of an app. By interfering the key touchpoints in the experience, Privacy Manager will ensure the right decision to be made at the right timing.</p>
+      <h3>&#x25B8; Principle 2</h3>
+      <h2>Be proactive about potential risks.</h2>
+      <p>To combat the dilemma where users could have completely forgotten the risky privacy setup of the apps, I decided to be more proactive by pointing out potential risks and right actions throughout the whole journey.</p>
+      <h3>&#x25B8; Principle 3</h3>
+      <h2>Turn explanations into actions.</h2>
+      <p>Explaining vague concepts is hard and sometimes not needed. Since education isn’t our end goal anyway, why not just give people the instructions so then they can take actions right away? By going through the related actions, users will eventually get the idea through a learning-by-doing process.</p>
+    </div>
+  </div>
+
+  <div class="article-content">
+
+    <div id="s6" class="article-text">
+      <p class="highlighted-text">Design Decisions</p>
+      <h1>1. Alerts turn abstract concepts into action items.</h1>
+      <p>Actionable alerts turned the vague concepts like “purpose” and “third parties” into things that users can take immediate actions on.</p>
+      <p>Users: "Yes. This is what I want. I trust the system's choice."</p>
+      <img class="gif-demo" src="assets/privacy/risk.gif">
+      <h2>2. Gamified onboarding primes the brain for a new mental model.</h2>
+      <p>Action: Condensed the complexing data model into an interactive quiz onboarding.</p>
+      <p>Users: "This looks really nice. I think now I understand the model that you are proposing much better."</p>
+      <img class="gif-demo" src="assets/privacy/onboarding.gif">
+      <h2>3. Mental model is built easily with better visual hiarachy.</h2>
+      <p>Action: Reduced the amount of information and highlight the key things that help users in the most common use cases.</p>
+      <p>Users: "I like this. Very simple and down to the point."</p>
+      <img class="background-img" src="assets/privacy/visual.png">
+      <h2>4. Install-time settings is guided with crowdsourcing data.</h2>
+      <p>Action: provided system recommended settings based on crowdsourcing usage data collect anonymously from all users.</p>
+      <p>Users: "This is much better. I don't think that I will go to the configure app. But this is giving me enough protection and awareness."</p>
+      <img class="background-img" src="assets/privacy/first-use.png">
+      <h2>5. Privacy data is now covered through out the entire life cycle.</h2>
+      <p>Action: Notified users once there is a privacy risk found in their apps.</p>
+      <p>Users: "Now I feel being protected all the time. I like that it's approaching me and keeping me aware of the important things."</p>
+      <img class="gif-demo" src="assets/privacy/notification.gif">
+
+    </div>
+  </div>
+
+
+    <div class="other-content">
+      <div class="other-card-1">
+      <p class="small-title">< Previous Project</p>
+      <a class="grey-link" href="bb.html">Bloomberg Accessible Hiring </a>
+      </div>
+      <div class="other-card-2">
+      <p class="small-title" href="#">Next Project ></p>
+      <a class="grey-link" href="#">HappyOrNot Admin</a>
+      </div>
+
+      <div class="article-footer">
+        <p class="small">© Designed & hand-coded by Jinping Liu</p>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+</body>
+</html>

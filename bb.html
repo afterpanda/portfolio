@@ -1,0 +1,277 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jinping's Portfolio</title>
+  <meta name="description" content="About Me">
+  <meta name="author" content="SitePoint">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="path/to/theater.min.js"></script>
+  <script src="main.js"></script>
+
+<!--
+  <script language="JavaScript">
+  function password() {
+    var testV = 1;
+    var pass1 = prompt('This page requires password:','');
+    while (testV < 3) {
+      if (!pass1)
+      history.go(-1);
+      if (pass1 == "d") {
+        alert('Welcome! Please click "OK" to continue.');
+        break;
+      }
+      testV+=-1;
+      var pass1 = prompt('Wrong password. Please type again:)');
+    }
+    if (pass1!="password" & testV ==3)
+    history.go(-1);
+    return " ";
+  }
+  document.write(password());
+  </script>
+
+-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <nav class="navi">
+    <a href="index.html"><img src="assets/portfolio_logo_white.svg" alt="LOGO" class="article-logo"></a>
+
+  </nav>
+  <div class="article-sidebar">
+    <div class="greeting">
+      <!--<img src="assets/portfolio_logo.svg" alt="LOGO" class="article-logo">-->
+      <div class="in-page-navi">
+        <a class="anchor" id="anchor-s1" href="#s1">Design Challenge</a>
+        <a class="anchor" id="anchor-s2" href="#s2">Initial Research</a>
+        <a class="anchor" id="anchor-s2" href="#s3">Defining the Problem</a>
+        <a class="anchor" id="anchor-s3" href="#s4">Earily Iteration</a>
+        <a class="anchor" id="anchor-s4" href="#s5">Co-design with users</a>
+        <a class="anchor" id="anchor-s5" href="#s6">Product Decisions</a>
+        <a class="anchor" id="anchor-s6" href="#s7">Iterating & Testing</a>
+        <a class="anchor" id="anchor-s7" href="#s8">Design Decisions</a>
+        <a class="anchor" id="anchor-s8" href="#s9">REFLECTION</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card card-2">
+    <img class="cover-img" src="assets/macbook-mock2.png" alt="cover">
+  </div>
+
+  <div class="article-title">
+
+    <div class="tags">
+      <span>USER RESEARCH</span>
+      <span>INTERACTION DESIGN</span>
+      <span>VISUAL DESIGN</span>
+    </div>
+    <h1 class="title">Bloomberg Accessible Hiring</h1>
+
+    <p class="article-brief">I designed the a new hiring portal for Bloomberg candidates with disabilities to request accommodations needed for interview process.</p>
+    <p class="article-brief">The design idea has been added to Bloomberg's development planning.</p>
+  </div>
+      <img class="mid-img" src="assets/bb/request.gif" alt="">
+
+  <div class="article-content">
+    <!--<div class="article-text">
+      <img class="background-img" src="https://www.happy-or-not.com/content/uploads/2017/12/The-Airport-Report-with-feedback-data.jpg" alt="background-image">
+    </div>-->
+    <div id="s1" class="article-text">
+      <p class="highlighted-text">Design Challenge</p>
+      <h1>To envision an accessible future of hiring at Bloomberg.</h1>
+      <p>Getting a decent job is everyone’s dream including people with disabilities. However, the process has not made as easy for them as for their luckier counterparts. According to the statistics, the average employed rate of people with disabilities in the US is almost half as the figure of people without disabilities.</p>
+      <img class="background-img" src="assets/bb/statistic.png">
+      <p>To combat this huge inequity, Bloomberg came to us in January 2018 with the vision of building a more accessible hiring and onboarding experience for people with disabilities to help them get hired and eventually thrive at Bloomberg.</p>
+
+    </div>
+    <div id="s2" class="article-text">
+      <p class="highlighted-text">Initial Research</p>
+      <h1>Lacking accommodations is the biggest pain.</h1>
+      <p>Our initial research phase last for around 5 month in which 5 of us interviewed and observed over 50 people with disabilities and stakeholders and collected over 1200 notes from the field. By synthesizing the notes into a condensed service blueprint, we spotted the breakdowns repetitively accumulated around the accommodation requesting flow. </p>
+
+      <p class="small">* An accommodation is assistance or changes to a position or workplace that will enable an employee to do his or her job despite having a disability. </p>
+      <img class="background-img" src="assets/bb/service_blueprint.jpg">
+      <h3>&#x25B8; Insight 1</h3>
+      <h2>“I am not getting the accommodations to perform.”</h2>
+      <p>Just like we can’t live without our laptops, people with disabilities also need certain tools and assistance to accomplish tasks in the interview process. In the research, we heard dozens of users talked about their experience of not having the needed accommodation during their interviews process and ended up not getting the job.</p>
+      <img class="background-img" src="assets/bb/accommodation.png">
+      <h3>&#x25B8; Insight 2</h3>
+      <h2>“It is showing my biggest flaws while trying to convince companies to hire me.”</h2>
+      <p>After diving deeper into the domain, we soon realized that this is never a process problem. Its root cause, however, is highly embedded in people’s identity and self-esteem. No matter how the law talks about “requesting without disclosing”, there is basically no way to hide the disability after asking for the associated accommodation from recruiters. </p>
+      <img class="background-img" src="assets/bb/initial_2.png">
+      <h3>&#x25B8; Insight 3</h3>
+      <h2>“It is scary like Pandora's box. I have no idea what will be triggered: supports or discrimination.”</h2>
+      <p>In our research, we heard multiple stories about how people’s job applications got terminated soon after they disclose their need for accessible accommodation. The unpredictable consequences and the general stereotyping in the society brings fears to people with disabilities. Thus, many of them chose not to request and ended up failing the interviews.</p>
+      <img class="background-img" src="assets/bb/initial_3.png">
+    </div>
+    <div id="s3" class="article-text">
+      <p class="highlighted-text">Defining the Problem</p>
+      <h1>How might we eliminate the fears by helping users make informed decisions of accommodation requests?</h1>
+      <p>With all the three key main findings in mind, we realized that the biggest pain point of the process is the ambiguity centered around the decision making process. It is scary for candidates with disabilities to make up their mind because the consequences could be extremely harmful to their candidacy and even self-esteem. Although there isn’t really much we can do to directly shift the society’s misconception, we can help people with disabilities make more informed decisions and eliminate their fears along the way.</p>
+      <img class="background-img" src="assets/bb/maze.png">
+
+    </div>
+  </div>
+
+<!--
+<img class="full-img" src="assets/persona_fixed.png" alt="persona">
+-->
+
+
+  <div class="article-content">
+
+    <div id="s4" class="article-text">
+      <p class="highlighted-text">Earily Iteration</p>
+      <h1>Trying out all the possible ways for informed decision making.</h1>
+      <p>To address the ambiguity in the process, we initially came up with over 100 design ideas which covered all the possible solutions aiming at leveraging all sorts of resources to help candidates with disabilities to make informed decisions.</p>
+
+      <p><strong>Idea 1: Disclosure Calculator</strong><br>Rationale: To help users visualize the benefit and risks of each accommodation.<br>Why failed: The biggest risk is always discrimination which is not predictable at all.</p>
+      <p><strong>Idea 2: Disclosure Privacy Manager </strong><br>Rationale: To help users manage their disability related information to keep the data secured.<br>Why failed: Recruiters can always infer the person’s disabilities type after the accommodation; there is no way to hide the information.</p>
+      <p><strong>Idea 3: Mentorship Platform </strong><br>Rationale: To leverage experts’ knowledge by helping users disclose disabilities in the most informed way. <br>Why failed: Accommodation is an extremely personal thing and experts’ suggestion won’t be specific enough to fit individual’s situation.</p>
+      <p><strong>Idea 4: Peer Best Practice </strong><br>Rationale: To leverage the community’s knowledge by helping users disclose disabilities in the most informed way. <br>Why failed: There is already facebook groups doing exactly the same thing.
+</p>
+    </div>
+  </div>
+
+<img class="full-img" src="assets/bb/trials.png" alt="persona">
+
+  <div class="article-content">
+
+    <div id="s5" class="article-text">
+      <p class="highlighted-text">Co-design with users</p>
+      <h1>So, what exactly is the missing information?</h1>
+      <p>After the failed initial trials, we decided to try out other research methods to seek for the most promising solution. Co-design then came to our mind due to its reflective and creative nature. By having the one-on-one creative conversations with the 3 users, we found the most promising solution at the most unexpected corner.</p>
+      <img class="background-img" src="assets/bb/maze2.png">
+      <h3>&#x25B8; Insight 1</h3>
+      <h2>Surprisingly, candidates often don’t know whether they need an accommodation.</h2>
+      <p>It might sound counterintuitive that people with disabilities don’t always know whether they need accommodations for the interviews at the first place. However, just like having trouble of packing for an unknown trip, people with disabilities also experience the same struggle to foresee what they would need without knowing the setting of an unfamiliar scenario.</p>
+      <img class="background-img" src="assets/bb/insight1.png">
+      <h3>&#x25B8; Insight 2</h3>
+      <h2>Seemingly trivial things is crucial for deciding whether and what to request.</h2>
+      <p>Although a brief email about interview content might seem trivial, it is currently the only source of truth that people with disabilities rely on to decide whether they need certain accommodations. Due to the lack of detailed description of the tasks, tools and environment of the interview, users are now wasting their time and mental energy for accommodation options they probably won’t need anyway. </p>
+      <img class="background-img" src="assets/bb/insight2.png">
+      <h3>&#x25B8; Insight 3</h3>
+      <h2>Users need to see the open attitude to combat fears.</h2>
+      <p>Due to being burned in their previous experience, PWD are constantly concerned about being seemed as burdens by the recruiters. Without sensing the employer’s open attitude towards handling accommodation requests, the process is mentally draining rather than powering for PWD.</p>
+      <img class="background-img" src="assets/bb/insight3.png">
+    </div>
+  </div>
+
+  <div class="article-content">
+    <div id="s6" class="article-text">
+      <p class="highlighted-text">Product Decisions</p>
+      <h1>Introducing the 3 steps requesting model.</h1>
+      <p>To address the pain points mentioned above, together with the 3 users, we came up with the 3 step requesting aiming at helping all candidates regardless of their abilities make informed decisions and eliminate fears in the accommodation requesting process. </p>
+      <img class="background-img" src="assets/bb/preview_request.png">
+      <p><strong>The three steps are:</strong></p>
+      <p><strong>1. Preview: </strong>Allowing users to preview the tasks, tools and environment of the interview process, so then they can know whether and what to request.</p>
+      <p><strong>2. View: </strong>Allow users to view all the ready-made accommodation options, so then they can see Bloomberg’s open attitude and eliminate fears along the way.</p>
+      <p><strong>3. Request: </strong>Allow users to request the accommodation options, so then they can perform in the interview and ultimately get the job.</p>
+    </div>
+  </div>
+
+  <div class="article-content">
+    <div id="s7" class="article-text">
+      <p class="highlighted-text">Iterating & Testing</p>
+      <h1>Running 12 design iterations and 30 user tests.</h1>
+      <p>After deciding final product concept, we soon went on iterating the interface design of the concept. For each features, we at least came up with 3 parallel prototypes and test with at least 5 users. By going through 30 user tests and 12 design iterations, we finally nailed our design manifestation with an edgy New-yorkish visual style.</p>
+    </div>
+  </div>
+
+<img class="full-img" src="assets/bb/iteration1.png" alt="persona">
+
+  <div class="article-content">
+    <div id="s8" class="article-text">
+      <p class="highlighted-text">Design Decisions</p>
+      <h1>1. Scan-friendly layout streamlines the preview process.</h1>
+      <p>Action: the left-aligned layout with bolded headings makes previewing a one-off scanning experience.</p>
+      <p>Test result: users can get the important information much faster comparing to with other layouts.</p>
+    </div>
+
+<img class="mid-img" src="assets/bb/scan_mockup.gif" alt="persona">
+
+
+  <div class="article-text">
+    <h2>2. Accommodation options eliminate candidates' fears of discrimination.</h2>
+    <p>Action: Listed all the available accommodation options that Bloomberg is ready to provide.</p>
+    <p>Candidates with disabilities: "This shows that Bloomberg truly cares all candidates' interview experience. I'm impressed."</p>
+  </div>
+<img class="mid-img" src="assets/bb/options.gif" alt="persona">
+
+    <div class="article-text">
+      <h2>3. Immersive view makes requesting no longer a guesswork.</h2>
+      <p>Action: imbedded 360 degree photos in the preview page to provide much detailed environmental information.</p>
+      <p>Test results: users with mobile impariments found this feature extremely helpful to plan their onsite interview.</p>
+    </div>
+    <img class="mid-img" src="assets/bb/360_mockup.gif" alt="persona">
+
+    <div class="article-text">
+      <h2>4. Requesting became a no-brainer with in-context options.</h2>
+      <p>Action: Inserted the accommodation options to its related interview section to provide in-the-moment support.</p>
+      <p>Test results: users found it useful and 10/10 users were able to find the accommodation and understand why they would need it.</p>
+    </div>
+    <img class="mid-img" src="assets/bb/in-context_mockup.gif" alt="persona">
+
+
+    <div class="article-text">
+      <h2>5.Prioritizing error-prevention over ease of use.</h2>
+      <p>Action: removed the original "shopping cart" idea completely to make sure users won't miss any accommodation request.</p>
+      <p>Test results: 5/5 users successfully accomplished the requesting task, while with "shopping cart" only 1/5 users accomplished the task.</p>
+    </div>
+    <img class="mid-img" src="assets/bb/error_prevention.png" alt="persona">
+
+  <div class="article-text">
+      <h2>6. Abusing is prevented in an elegant way.</h2>
+      <p>Action: Removed the accommodation option that could be abused by people without disabilities and offered open-ended accommondation request.</p>
+      <p>Candidates without disabilities: "Now it's quite clear that those options are for disabled people rather than me."</p>
+  </div>
+
+
+
+<img class="mid-img" src="assets/bb/abusing.png" alt="persona">
+
+  <div class="article-content">
+    <div id="s9" class="article-text">
+      <p class="highlighted-text">Reflection</p>
+      <h1>Good design is obvious.</h1>
+      <p>Honestly, I didn't like the design idea as much at the beginning since it seemed too obvious to me. However, through rounds and rounds of user testing, I realized that our value as HCI-ers shouldn’t be coming up with novel but meaningless concepts, but socially impactful solutions that will bring real value to people. On a surface level, it seems easy. But in real life, it is much harder since it requires tons of validation with real users and takes guts to abandon our inclination to “novel” ideas.</p>
+      <h2>Product design is all about finding sweet spots.</h2>
+      <p>The biggest challenge in the project is the contradicting interests of the two parties: PWD and Bloomberg. PWD need to see accommodation options upfront; yet Bloomberg concerns about other people taking advantage of them. Knowing that it is a delicate and difficult balance to keep, we didn’t give up. Instead, we embraced the complexity by testing multiple solutions of each UI elements to seek for the sweet spots of all the associated spectrums where both parties’ interests married.</p>
+    </div>
+  </div>
+
+  <div class="other-content">
+    <div class="other-card-1">
+    <p class="small-title">< Previous Project</p>
+    <a class="grey-link" href="hon1.html">HappyOrNot Data Dashboard </a>
+    </div>
+    <div class="other-card-2">
+    <p class="small-title">Next Project ></p>
+    <a class="grey-link"  href="privacy-manager.html">Android Privacy Manager</a>
+    </div>
+
+    <div class="article-footer">
+      <p class="small">© Designed & hand-coded by Jinping Liu</p>
+    </div>
+
+  </div>
+
+  </div>
+
+</body>
+</html>

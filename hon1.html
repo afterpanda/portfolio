@@ -1,0 +1,230 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Jinping's Portfolio</title>
+  <meta name="description" content="About Me">
+  <meta name="author" content="SitePoint">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="path/to/theater.min.js"></script>
+  <script src="main.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <nav class="navi">
+    <a href="index.html"><img src="assets/portfolio_logo_white.svg" alt="LOGO" class="article-logo"></a>
+
+  </nav>
+  <div class="article-sidebar">
+    <div class="greeting">
+      <!--<img src="assets/portfolio_logo.svg" alt="LOGO" class="article-logo">-->
+      <div class="in-page-navi">
+        <a class="anchor" id="anchor-s1" href="#s1">Project Background</a>
+        <a class="anchor" id="anchor-s2" href="#s2">Problem Space</a>
+        <a class="anchor" id="anchor-s3" href="#s3">Initial Research</a>
+        <a class="anchor" id="anchor-s4" href="#s4">Contextual Inquiries</a>
+        <a class="anchor" id="anchor-s5" href="#s5">Early Iterations</a>
+        <a class="anchor" id="anchor-s6" href="#s6">The Turning Point</a>
+        <a class="anchor" id="anchor-s7" href="#s7">Product Decision</a>
+        <a class="anchor" id="anchor-s8" href="#s8">Design Decisions</a>
+      </div>
+    </div>
+  </div>
+  <div class="article-card card-1">
+    <img class="cover-img" src="assets/happyornot/hand_hold.png" alt="">
+  </div>
+
+  <div class="article-title">
+
+    <div class="tags">
+      <span>USER RESEARCH</span>
+      <span>WEB DESIGN</span>
+      <span>MOBILE DESIGN</span>
+    </div>
+    <h1 class="title">HappyOrNot Data Dashboard</h1>
+
+    <p class="article-brief">I redesigned the HappyOrNot reporting dashboard, which helps retail managers quickly get the actionable insights based on customer feedback for long-term service improvement.</p>
+    <p class="article-brief">The new dashboard was launched on Nov 1st, 2017. After its launch, the user retention has increased by 45%. </p>
+
+  </div>
+<img class="mid-img" src="assets/happyornot/demo.png" alt="">
+  <div class="article-content">
+
+
+    <!--<div class="article-text">
+      <img class="background-img" src="https://www.happy-or-not.com/content/uploads/2017/12/The-Airport-Report-with-feedback-data.jpg" alt="background-image">
+    </div>-->
+    <div id="s1" class="article-text">
+      <p class="highlighted-text">Project Background</p>
+      <h1>To reimagine the world’s NO.1 instant feedback service.</h1>
+      <p>As the global leader in instant customer feedback reporting, HappyOrNot provides service for many of the world’s largest corporations including Microsoft, Walmart, and McDonald. To build the cornerstone of its larger global success, the company decided to redesign its data dashboard in spring 2017.</p>
+      <img class="background-img" src="https://www.happy-or-not.com/content/uploads/2017/12/The-Airport-Report-with-feedback-data.jpg" alt="">
+    </div>
+    <div id="s2" class="article-text">
+      <p class="highlighted-text">Problem Space</p>
+      <h1>How might we increase the long-term user engagement?</h1>
+      <p>HappyOrNot used to be a product-centered company in its early years despite its subscription-based business model. At the time, the sales performance of the devices played a vital role in the company’s revenue. However, as the client base grows, converting the existing customers into recurring ones became more important than ever. To achieve the goal, the reporting dashboard was set to be rebuilt as the foundation of the company’s global business expansion.</p>
+</p>
+      <img class="background-img" src="assets/happyornot/problem.png" alt="retention">
+    </div>
+    <div id="s3" class="article-text">
+      <p class="highlighted-text">Initial Research</p>
+      <h1>On the surface, users just want more advanced features.</h1>
+      <p>By mapping the existing customer feedbacks collected by PMs and customer service, I spotted the most requested change to be adding more advanced features. Those features include “export the dashboard to more formats”, “total customization of the dashboard”, and “import other KPIs into the dashboard”.</p>
+      <img class="background-img" src="assets/happyornot/advanced_features.png" alt="retention">
+      <h2>Be mindful of sampling bias by focusing on the common use cases.</h2>
+      <p>But I soon realized that those requests mostly came from power users, who are statistically less than 1% of the total user group. Since the goal of the project was to increase the user engagement, we should be focusing on the majority of the users, aka the average users. I created a spreadsheet to ensure that the research sample covers all the subsets of roles, business sectors and countries to avoid sampling bias. In the end, I was able to interview and observe 12 users from 8 countries and 10 companies.</p>
+      <img class="background-img" src="assets/happyornot/sampling-bias.png" alt="retention">
+    </div>
+    <div id="s4" class="article-text">
+      <p class="highlighted-text">Contextual Inquiries</p>
+      <h1>Lacking complexing features isn’t the pain. Poor UX is.</h1>
+      <p>Quite opposite to what power users are previously reporting, the average users enjoy the dashboard being simple. They don’t want the design to be more complexing, instead, they want a simple but smoother experience. By conducting contextual inquiry where I got the chance to observe how they use the system in the actual work setting, I was able to collect the insights which set the stepping stone of my design work.</p>
+      <h3>&#x25B8; Insight 1</h3>
+      <h2>Retail managers are super busy at work and customer feedback isn’t their priority.</h2>
+      <p>The common thing that I found through contacting and observing the retail managers was that they are extremely busy at work. Especially as to the store managers who actually come to work at the store on a daily basis, they are “running” all over the place to fix issues right on the spot. For them, customer satisfaction is a secondary task comparing to sales performance, and they wouldn’t spend much time on it.</p>
+      <p><strong>This means, the experience should be extremely efficient and light-weight.</strong></p>
+      <img class="background-img" src="assets/happyornot/initial_insight1.png" alt="retention">
+
+      <h3>&#x25B8; Insight 2</h3>
+      <h2>Different Type of users need different content.</h2>
+      <p>Another thing that I observed is that users would have to go to different pages to get all the needed information they want. And for store managers, regional managers, HR managers, the content needed is completely different. That’s why some of the users were even suggesting that the dashboard should support customization. That way, all types of users can get the information they want without switching back and force between multiple pages.</p>
+      <p><strong>This means, we should provide customized views for different types of users.</strong></p>
+      <img class="background-img" src="assets/happyornot/multiple_views.png" alt="retention">
+
+      <h3>&#x25B8; Insight 3</h3>
+      <h2>The existing dashboard is not designed to be scan-friendly.</h2>
+      <p>Despite users’ need for efficiency, the existing dashboard didn’t provide a scan-friendly experience. Instead, many of the breakdowns that I observed from the contextual inquiry were related to the browsing experiencing:</p>
+      <img class="background-img" src="assets/happyornot/scan_friendly.png" alt="retention">
+      <p><strong>1.The charts are in the wrong order. </strong></p>
+      <p>One thing that I observed while users walk me through their experience was that they often times started from the pie chart located at the bottom, which breaks users’ first impression of the dashboard.</p>
+      <p><strong>2. Key figures are not highlighted.</strong></p>
+      <p>Another findings from the observation is that most of users tend to focus on the summary charts where the key numbers are very easy to be spotted. On contrast, those charts with much detailed information are often times forgotten by average users. </p>
+      <p><strong>This means, we need to reorder the charts and highlight the key figures to make the view more scan-friendly.</strong></p>
+    </div>
+  </div>
+
+  <div class="article-content">
+
+    <div id="s5" class="article-text">
+      <p class="highlighted-text">Early Iterations</p>
+
+      <h3>&#x25B8; Initial Solution 1</h3>
+      <h2>Provide customized views for different type of users.</h2>
+      <p>Action: divide widgets into two three different views according the user types who need them.</p>
+      <p>Test results: each type of users feel less confused about the content that they are getting and finish the task much faster.</p>
+      <h3>&#x25B8; Initial Solution 2</h3>
+      <h2>Highlight key figures to streamline the scanning process.</h2>
+      <p>Action: extract the key figures from the widgets and front load those figures on the top of the dashboard.</p>
+      <p>Test results: users feel they get the key information much faster and feel less confused about where to focus.</p>
+      <h3>&#x25B8; Initial Solution 3</h3>
+      <h2>Prioritize summary charts to fit users’ mental model.</h2>
+      <p>Action: prioritize the summary charts like pie chart and separate the line chart from the bar charts to make each chart serve only one purpose.</p>
+      <p>Test results: users like the new order since they are offered with the option to skip the rest of the report if the overall result is positive.</p>
+      <h3>&#x25B8; Initial Solution 4</h3>
+      <h2>Add advanced filters to strengthen the analytic feature.</h2>
+      <p>Action: to add the advanced filters to the existing charts to offer users the opportunity to look at the data on a greater granularity.</p>
+      <p>Test Results: users like the advanced filters but feel those advanced features don’t belong to the scanning scenario and should be separated.</p>
+  </div>
+
+  <img class="full-img" src="assets/happyornot/initial_demo.png" alt="retention">
+
+
+
+  <div class="article-content">
+
+    <div id="s6" class="article-text">
+      <p class="highlighted-text">The Turning Point</p>
+      <h1>Users: it is a nice face-lift. But where is the “meat”?</h1>
+      <p>Although the overall design direction got confirmed by the users, they didn’t seem to be impressed by the initial design solutions. In their eyes, those design updates are more like face-lift, rather than providing meat to actually solve the core problem they have. By sensing those nuance in their reaction, I decided to delve even deeper to the problem area by having another round of user research. </p>
+      <h3>&#x25B8; Insight 1</h3>
+      <h2>We shouldn’t target the users who are using the dashboard, but those who aren’t.</h2>
+      <p>By comparing the usage data of store managers and regional managers, I found a significant difference between the two groups. 80% of the dashboard users are store managers, however, the time they spend on the dashboard weekly is nearly as a fifth of the regional managers. Given our goal to increase the user engagement, we should target store managers to ensure their pain points are addressed by the new design.</p>
+      <img class="background-img" src="assets/happyornot/insight1.png" alt="retention">
+      <h3>&#x25B8; Insight 2</h3>
+      <h2>They thought the service was Big Brothery and not designed for them.</h2>
+      <p>The key finding through interviewing the store managers is that most of them thought measuring customer satisfaction is a way that the high-ups trying to be the big brother. That’s why they naturally went against the service by never using at all for their work. For them, the notion that HappyOrNot’s service being useful got a big question mark on it. To change the store managers mindset, we need to provide solid evidence to show our value in improving customer satisfaction and even sales performance.</p>
+      <img class="background-img" src="assets/happyornot/insight2.png" alt="retention">
+      <h3>&#x25B8; Insight 3</h3>
+      <h2>Essentially, they want the "hole", not the "drill". </h2>
+      <p>One of the fundamental assumption that we have in HappyOrNot is that the dashboard is easy to read with a minimal amount of knowledge in statistic. However, this assumption was proven to be wrong as many of the store managers were having trouble in analyzing the results. For them, there is a huge gap between the data shown in the dashboard and the analytic results which they can use to take actions.</p>
+      <img class="background-img" src="assets/happyornot/insight3.png" alt="retention">
+    </div>
+  </div>
+
+  <div class="article-content">
+
+    <div id="s7" class="article-text">
+      <p class="highlighted-text">Product Decision</p>
+      <h1>Dividing the original dashboard into two views to fit two distinct use cases.</h1>
+      <p>After synthesizing all the findings from the two rounds of user research, I decided to divide the dashboard into two views:</p>
+      <img class="background-img" src="assets/happyornot/product_decision.png" alt="retention">
+      <p><strong>Quick View: </strong>where <strong>average users</strong> can get <strong>actionable key insights </strong>directly extracted from the raw data right away without diving into the charts and numbers.</p>
+      <p><strong>Analytics View: </strong>where <strong>power users</strong> can drill down to a specific time span to conduct <strong>advanced data analysis</strong> on their own term.</p>
+    </div>
+  </div>
+<img class="mid-img" src="assets/happyornot/quickview1.png" alt="retention">
+
+
+  <div class="article-content">
+
+    <div id="s8" class="article-text">
+      <p class="highlighted-text">Design Decisions</p>
+      <h1>1. Key insights turn raw data into an action plan.</h1>
+      <p>Action: Converted raw data into key insights which users can take actions on immediately.</p>
+      <p>Users: "This is exactly what I want. With this (key insights widgets), I don't have to spend hours reading the report."</p>
+      <img class="background-img" src="assets/happyornot/key_insight.png" alt="retention">
+      <h2>2. Long-term trend makes service improvement an informed decision.</h2>
+      <p>Action: Extracted the long-term fluctuation from the weekly report into the daily report.</p>
+      <p>Users: "I like this. Now I don't have to switch the time span filter to see how my current performance compares against previous ones."</p>
+      <img class="background-img" src="assets/happyornot/long_term.png" alt="retention">
+      <h2>3. Internal ranking leverages social factors for an engaging experience. </h2>
+      <p>Action: Captured the key index in each location into a brief ranking</p>
+      <p>Users: "This is great. With this I feel more motivated to come to the site"<br>
+      "Wow. This will save me lots of time. I only care about those who are on the top or at the bottom."</p>
+      <img class="background-img" src="assets/happyornot/rank.png" alt="retention">
+      <h2>4. Recurring patterns back up the decisions with solid evidence.</h2>
+      <p>Action: Upgraded the aggregated charts into a heat map where users can spot the patterns without worring about the result being screwed up by one bad data point.</p>
+      <p>Users: "This is really cool. Now I can get a better picture of the root cause of customer's dissatisfaction."</p>
+      <img class="background-img" src="assets/happyornot/pattern.png" alt="retention">
+      <h2>5. Customized view ensures great experience for everyone.</h2>
+      <p>Action: Wraped all the needed information for a type of users in one single view.</p>
+      <p>Users: "Now I don't have to go through all the different pages which I would have to do in the past."</p>
+      <img  class="gif-demo" src="assets/demo.gif" alt="retention">
+
+
+    </div>
+  </div>
+
+  <div class="other-content">
+    <div class="other-card-1">
+    </div>
+    <div class="other-card-2">
+    <p class="small-title">Next Project ></p>
+    <a class="grey-link" href="bb.html">Bloomberg Accessible Hiring</a>
+    </div>
+
+    <div class="article-footer">
+      <p class="small">© Designed & hand-coded by Jinping Liu</p>
+    </div>
+
+  </div>
+
+
+  </div>
+
+</body>
+</html>

@@ -69,4 +69,14 @@ $(document).ready(function(){
 		$('body,html').animate({
 			scrollTop: target.offset().top}, 400);
 	}
+
+  $(window).scroll(function(){
+      if($(this).scrollTop()>650) {
+          $('.article-logo').attr('src','assets/portfolio_logo_old.svg');
+      }
+      else {
+          $('.article-logo').attr('src','assets/portfolio_logo_white.svg');
+      }
+  })
+
 });
